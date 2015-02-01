@@ -1,13 +1,15 @@
 
 /*basic styles*/
 
+
+
 @font-face {
     font-family: Myriad Pro;
-    src: url('fonts/MYRIADPRO-REGULAR');
+    src: url('../fonts/MYRIADPRO-REGULAR.otf');
 }
 
 .p{
-  font-family:Myriad Pro !important;
+  font-family:Myriad Pro;
 }
 
 .col-blue{

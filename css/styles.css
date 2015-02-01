@@ -1,5 +1,50 @@
 /*basic styles*/
 
+.nav-background{
+  background-image:url("../images/Navbar/Background.png");
+}
+
+.page-head{
+  background-image:url("../images/Pageheader/Menu_Bar.png");
+}
+
+.header-stuff{
+  background-image:url("../images/Header/Header_Background.png"); 
+}
+
+.menu-pads{
+  margin-left:9%;
+  padding-top:1%;
+  padding-bottom:1%;
+}
+
+.icon-pads{
+  margin-right:1%;
+  padding-bottom:1%;
+}
+
+
+.inline-block{
+  display:inline-block;
+}
+
+.block{
+  display:block;
+}
+
+.inline{
+  display:inline;
+}
+
+.float-left{
+  float:left;
+}
+
+.float-right{
+  float:right;
+}
+
+
 .col-blue{
 
   border: 1px solid blue;
