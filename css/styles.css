@@ -1,5 +1,6 @@
 /*basic styles*/
 
+
 .nav-background{
   background-image:url("../images/Navbar/Background.png");
 }
@@ -9,7 +10,7 @@
 }
 
 .header-stuff{
-  background-image:url("../images/Header/Header_Background.png"); 
+  background-image:url("../images/Header/Header_Background.png");
 }
 
 .menu-pads{
@@ -34,6 +35,14 @@
 
 .inline{
   display:inline;
+}
+
+.border-left{
+  border-left:1px solid transparent;
+}
+
+.border-right{
+  border-right:1px solid white;
 }
 
 .float-left{
