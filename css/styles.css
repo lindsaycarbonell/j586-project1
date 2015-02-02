@@ -1,6 +1,26 @@
 /*basic styles*/
 
 
+/*basic styles*/
+
+
+
+@font-face {
+  font-family: Myriad Pro;
+  src: url('../fonts/MYRIADPRO-REGULAR.otf');
+}
+
+.p{
+  font-family:Myriad Pro;
+}
+
+
+ul{
+  list-style-image:url('../images/List_Ellipse.png');
+}
+
+
+
 .nav-background{
   background-image:url("../images/Navbar/Background.png");
 }
@@ -45,6 +65,16 @@
   border-right:1px solid white;
 }
 
+.border-all{
+  border:1px solid gray;
+  border-radius:4px;
+  padding:5px;
+}
+
+.profile-box{
+  width:4em;
+}
+
 .float-left{
   float:left;
 }
@@ -58,7 +88,6 @@
 
   border: 1px solid blue;
   border-radius:4px;
-  margin:5px;
 
   }
 
@@ -66,5 +95,5 @@
 
   border: 1px solid red;
   border-radius:4px;
-  margin:5px;
+
 }
