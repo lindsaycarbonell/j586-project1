@@ -184,6 +184,42 @@ font-size:32px;
   margin-right:10px;
 }
 
+/*CONTACTS AND CUSTOMERS*/
+.contact-cust-box{
+  background-color:white;
+  box-shadow: 1px 1px 1px #777777;
+  min-height:200px;
+  position:relative;
+}
+
+.profile-icon{
+  margin-left:40%;
+  position:absolute;
+}
+
+.profile-banner{
+  background-color:#2498f4;
+  margin:20% 20% 20% 20%;
+  width:200px;
+  z-index:5;
+  position:absolute;
+}
+
+#contact-box-header{
+  text-transform:uppercase;
+  color:#fff;
+  font-size:21px;
+  text-align:center;
+}
+
+#contact-box-sub{
+  text-transform:uppercase;
+  color:#fff;
+  font-size:11px;
+  text-align:center;
+}
+
+
 .nav-background{
   background-image:url("../images/Navbar/Background.png");
 }
