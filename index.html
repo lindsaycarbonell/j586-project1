@@ -16,8 +16,6 @@
 
 <body>
 
-  <div class="container">
-
   <!-- PAGE HEADER -->
   <div class="page-head row">
     <div class="col-lg-12 col-sm-12">
@@ -33,17 +31,23 @@
   <div class="nav-background row">
     <div class="col-lg-12 col-sm-12">
 
-      <img class="menu-pads" src="images/Icon_Dashboard_Selected.png" />
-      <img class="menu-pads" src="images/Icon_Customers_Selected.png" />
-      <img class="menu-pads" src="images/Icon_Messages_Selected.png" />
-      <img class="menu-pads" src="images/Icon_Promotions_Selected.png" />
-      <img class="menu-pads" src="images/Icon_Page_Creator_Selected.png"/>
-      <img class="menu-pads" src="images/Icon_Analytics_Selected.png" />
+      <img class=".Icon_Dashboard"/>
+      <img class="menu-pads" src="images/Navbar/Icon_Customers.png" />
+      <img class="menu-pads" src="images/Navbar/Icon_Messages.png" />
+      <img class="menu-pads" src="images/Navbar/Icon_Promotions.png" />
+      <img class="menu-pads" src="images/Navbar/Icon_Page Creator.png"/>
+      <img class="menu-pads" src="images/Navbar/Icon_Analytics.png" />
 
     </div><!-- end column -->
 
   </div><!-- end row -->
 
+
+
+  <div class="container">
+
+
+<!-- DASHBOARD HEADER -->
   <div class="row">
     <div class="header-stuff col-lg-8 col-sm-12">
       <form class="float-right">
@@ -83,34 +87,101 @@
       <img class="float-right inline" src="images/Announcements/Border_Left_Arrows.png" />
     </div> -->
 
+    <!---------------------- BEGIN TASKS ANALYTICS ---------------------->
 
-  <!-- TASKS, ANALYTICS  -->
-  <div class="row">
-    <div class="col-blue col-lg-4 col-sm-12">
+  <div class="row border-all">
+
+    <!-- TASKS -->
+    <div class="col-lg-3 col-md-3 col-sm-12">
       <!--<img src="images/Tasks/Bottom_Divider.png" />
       <img src="images/Tasks/Bottom_Divider_Shadow.png" />
       <img src="images/Tasks/Divider_Three.png" />
       <img src="images/Tasks/Divider_Three.png" />
       <img src="images/Tasks/Divider_Three.png" />-->
-          <h3>Tasks</h3>
-          <img class="float-right" src="images/Tasks/Icon_Settings.png" />
+      <h3>Tasks</h3>
+      <img class="float-right" src="images/Tasks/Icon_Settings.png" />
 
+      <ul class="tasks-ul">
+          <li>Welcome Contacts    <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
+          <li>Provide Responses   <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
+          <li>Review Activity     <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
+          <li>Reach Out          <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
+      </ul>
+    </div><!--end col TASKS-->
 
-        <ul>
-            <li>Welcome Contacts    <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-            <li>Provide Responses   <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-            <li>Review Activity     <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-            <li>Reach Out          <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-        </ul>
-
-
-
-    </div>
-    <div class="col-red col-lg-8 col-sm-12">
+<!-- ANALYTICS -->
+    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-7 col-sm-offset-1">
       <h3>Analytics</h3>
-      <p>ACTIVITY</p>
-    </div>
-  </div><!--end row-->
+
+      <div class="col-lg-6 col-sm-6">
+            ACTIVITY
+      </div><!--end inner col-->
+
+      <div class="col-lg-6 col-sm-6">
+        Drop-down menu
+      </div><!--end inner col-->
+
+
+      <img class="border-right" src="images/Analytics/Bar_Graph.png" />
+
+
+<!--social list-->
+      <div class="col-lg-10 col-lg-offset-2 col-sm-12">
+
+        <ul class="social-list">
+
+          <li class="inline">
+              <div class="checkbox social-list inline">
+              <label>
+                <input type="checkbox">Facebook
+              </label>
+            </div>
+            </li>
+
+              <li class="inline">
+                <div class="checkbox social-list inline">
+                <label>
+                    <input type="checkbox">Twitter
+                  </label>
+              </div>
+            </li>
+
+                <li class="inline">
+                  <div class="checkbox social-list inline">
+                    <label>
+                      <input type="checkbox">Foursquare
+                    </label>
+                  </div>
+                </li>
+
+                  <li class="inline">
+                    <div class="checkbox social-list inline">
+                      <label>
+                        <input type="checkbox">Google+
+                      </label>
+                    </div>
+                  </li>
+          </ul>
+  </div><!--end social list-->
+</div><!--end ANALYTICS-->
+
+  <!-- REFERRALS, CHANNELS -->
+  <div class="col-lg-2 col-md-2 col-sm-2">
+
+        <p class="float-right inline">CHANNELS</p>
+        <img class="float-right inline" src="images/Analytics/Graph_Channels.png"/>
+        <p class="float-right inline">REFERRALS</p>
+        <img class="float-right no-margins inline" src="images/Analytics/Graph_Referrals.png"/>
+
+
+
+  </div><!--END REFERRALS/CHANNELS-->
+
+  </div><!--end row TASKS, ANALYTICS, REFERRALS/CHANNELS-->
+
+
+
+<!---------------------- END TASKS ANALYTICS ----------------------->
 
   <!--Recommendations, etc-->
   <div class="row">

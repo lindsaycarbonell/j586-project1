@@ -3,19 +3,108 @@
 
 /*basic styles*/
 
-
-
-@font-face {
-  font-family: Myriad Pro;
-  src: url('../fonts/MYRIADPRO-REGULAR.otf');
-}
-
-.p{
-  font-family:Myriad Pro;
+body{
+  font-family:"Myriad Pro", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
 }
 
 
-ul{
+/*sprites for dash*/
+
+.Icon_Analytics_Selected, .Icon_Customers_Selected, .Icon_Dashboard_Selected, .Icon_Messages_Selected, .Icon_Page_Creator_Selected, .Icon_Promotions_Selected, .Icon_Analytics, .Icon_Customers, .Icon_Dashboard, .Icon_Messages, .Icon_Page-Creator, .Icon_Promotions{
+  background: url("../images/Navbar/sprites.png") no-repeat;
+}
+
+.Icon_Dashboard{
+  background-image: url("../images/Navbar/Icon_Dashboard.png");
+  /*background-position: 0 -259px ;
+  width: 58px;
+  height: 58px;
+  display:block;*/
+}
+
+.Icon_Dashboard:hover{
+  background-image: url("../images/Navbar/Icon_Dashboard_Selected.png");
+  /*background-position: -80px -256px ;
+  width: 58px;
+  height: 58px;
+  display:block;*/
+}
+
+.Icon_Analytics{
+  background-position: -3px -389px ;
+  width: 42px;
+  height: 50px;
+}
+
+.Icon_Analytics:hover{
+  background-position: -79px -386px ;
+  width: 42px;
+  height: 50px;
+}
+
+.Icon_Customers{
+  background-position: 0 -206px ;
+  width: 62px;
+  height: 42px;
+}
+
+.Icon_Customers:hover{
+  background-position: -80px -204px ;
+  width: 62px;
+  height: 42px;
+}
+
+
+.Icon_Messages{
+  background-position: 0 -156px ;
+  width: 57px;
+  height: 48px;
+}
+
+.Icon_Messages:hover{
+  background-position: -84px -156px ;
+  width: 57px;
+  height: 48px;
+}
+
+.Icon_Page-Creator{
+  background-position: -3px -99px ;
+  width: 45px;
+  height: 50px;
+}
+
+
+.Icon_Page-Creator:hover{
+  background-position: -86px -100px ;
+  width: 45px;
+  height: 50px;
+}
+
+.Icon_Promotions{
+  background-position: -7px -327px ;
+  width: 50px;
+  height: 50px;
+}
+
+.Icon_Promotions:hover{
+  background-position: -86px -325px ;
+  width: 50px;
+  height: 50px;
+
+}
+
+
+/*sprites for dash*/
+
+
+.social-list{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  }
+.tasks-ul{
   list-style-image:url('../images/List_Ellipse.png');
 }
 
@@ -62,7 +151,8 @@ ul{
 }
 
 .border-right{
-  border-right:1px solid white;
+  border-right:1px solid gray;
+
 }
 
 .border-all{
@@ -81,6 +171,10 @@ ul{
 
 .float-right{
   float:right;
+}
+
+.no-margins{
+  margin:0;
 }
 
 
