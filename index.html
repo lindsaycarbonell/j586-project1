@@ -19,7 +19,7 @@
   <!-- PAGE HEADER -->
   <div class="page-head row">
     <div class="col-lg-12 col-sm-12">
-      <p>Social Stream</p>
+      <p id="social-stream-text">social stream</p>
       <p class="float-right">MINI of Raleigh</p>
       <img class="border-left float-right icon-pads" src="images/Pageheader/Icon_Help.png" />
       <img class="border-left float-right icon-pads" src="images/Pageheader/Icon_Settings.png" />
@@ -48,14 +48,19 @@
 
 
 <!-- DASHBOARD HEADER -->
-  <div class="row">
-    <div class="header-stuff col-lg-8 col-sm-12">
-      <form class="float-right">
-  <input type="text">
-  <input type="image" src="images/Header/Icon_Search.png" value="">
-</form>
+  <div id="header-background" class="row">
 
+    <div class="col-lg-8 col-sm-8">
+      <p id="dashboard-text">Dashboard</p>
     </div>
+
+    <div class="col-lg-4 col-sm-4">
+      <form class="float-right">
+        <input type="text">
+          <input type="image"         src="images/Header/Icon_Search.png" value="">
+      </form>
+    </div>
+
   </div>
 
   <!--ANNOUNCEMENTS-->
@@ -63,11 +68,11 @@
 
 
       <div class="col-blue col-lg-2 col-sm-2">
-        <h5>Announcements</h5>
+        <p id="announcements-title-text">Announcements</p>
       </div><!--end inner col 1-->
 
 			<div class="col-red col-lg-8 col-sm-8">
-				<p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus.</p>
+				<p id="announcements-descr-text">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus.</p>
 			</div><!--end inner col 2-->
 
       <div class="col-blue col-lg-2 col-sm-2">
@@ -92,26 +97,93 @@
   <div class="row border-all">
 
     <!-- TASKS -->
-    <div class="col-lg-3 col-md-3 col-sm-12">
-      <!--<img src="images/Tasks/Bottom_Divider.png" />
-      <img src="images/Tasks/Bottom_Divider_Shadow.png" />
-      <img src="images/Tasks/Divider_Three.png" />
-      <img src="images/Tasks/Divider_Three.png" />
-      <img src="images/Tasks/Divider_Three.png" />-->
-      <h3>Tasks</h3>
-      <img class="float-right" src="images/Tasks/Icon_Settings.png" />
+    <div class="col-lg-3 col-md-3 col-sm-3">
 
+      <div class="row">
+        <div class="col-lg-12">
+          <h3 class="blue-header">Tasks</h3>
+            <img class="float-right" src="images/Tasks/Icon_Settings.png" />
+        </div>
+      </div><!--end inner row 1/5-->
+
+<div class="row">
+  <div class="col-lg-12 col-sm-12 no-margs-no-pads">
       <ul class="tasks-ul">
-          <li>Welcome Contacts    <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-          <li>Provide Responses   <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-          <li>Review Activity     <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-          <li>Reach Out          <div class="border-all profile-box float-right"><img src="images/Tasks/Profile.png" /><p class="inline">32</p></div>
-      </ul>
+          <li><p class="inline list-text">Welcome Contacts</p>
+          <div class="circle float-left">
+            <p class="list-num">1</p>
+          </div>
+
+            <div class="border-all profile-box float-right">
+              <img src="images/Tasks/Profile.png" />
+                <p class="inline">32</p>
+            </div><!--end profile box-->
+          </li>
+      </ul><!--end tasks list-->
+    </div><!--end col-->
+</div><!--end inner row 2/5-->
+
+<div class="row">
+  <div class="col-lg-12 col-sm-12 no-margs-no-pads">
+    <ul class="tasks-ul">
+      <li><p class="inline list-text">Provide Responses</p>
+        <div class="circle float-left">
+          <p class="list-num">2</p>
+        </div>
+
+        <div class="border-all profile-box float-right">
+          <img src="images/Tasks/Profile.png" />
+          <p class="inline">36</p>
+        </div><!--end profile box-->
+      </li>
+    </ul><!--end tasks list-->
+  </div><!--end col-->
+</div><!--end inner row 3/5-->
+
+<div class="row">
+  <div class="col-lg-12 col-sm-12 no-margs-no-pads">
+    <ul class="tasks-ul">
+      <li><p class="inline list-text">Review Activity</p>
+        <div class="circle float-left">
+          <p class="list-num">3</p>
+        </div>
+
+        <div class="border-all profile-box float-right">
+          <img src="images/Tasks/Profile.png" />
+          <p class="inline">36</p>
+        </div><!--end profile box-->
+      </li>
+    </ul><!--end tasks list-->
+  </div><!--end col-->
+</div><!--end inner row 4/5-->
+
+<div class="row">
+  <div class="col-lg-12 col-sm-12 no-margs-no-pads">
+    <ul class="tasks-ul">
+      <li><p class="inline list-text">Reach Out</p>
+        <div class="circle float-left">
+          <p class="list-num">4</p>
+        </div>
+
+        <div class="border-all profile-box float-right">
+          <img src="images/Tasks/Profile.png" />
+          <p class="inline">3</p>
+        </div><!--end profile box-->
+      </li>
+    </ul><!--end tasks list-->
+  </div><!--end col-->
+</div><!--end inner row 5/5-->
+
+
+
+
+
+
     </div><!--end col TASKS-->
 
 <!-- ANALYTICS -->
-    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-7 col-sm-offset-1">
-      <h3>Analytics</h3>
+    <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-5 col-xs-10">
+      <h3 class="blue-header">Analytics</h3>
 
       <div class="col-lg-6 col-sm-6">
             ACTIVITY
@@ -122,11 +194,11 @@
       </div><!--end inner col-->
 
 
-      <img class="border-right" src="images/Analytics/Bar_Graph.png" />
+      <img class="border-right width-hundred" src="images/Analytics/Bar_Graph.png" />
 
 
 <!--social list-->
-      <div class="col-lg-10 col-lg-offset-2 col-sm-12">
+      <div class="col-lg-10 col-lg-offset-2 col-sm-12 col-xs-10 col-xs-offset-2">
 
         <ul class="social-list">
 
@@ -166,12 +238,12 @@
 </div><!--end ANALYTICS-->
 
   <!-- REFERRALS, CHANNELS -->
-  <div class="col-lg-2 col-md-2 col-sm-2">
+  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-2">
 
-        <p class="float-right inline">CHANNELS</p>
-        <img class="float-right inline" src="images/Analytics/Graph_Channels.png"/>
-        <p class="float-right inline">REFERRALS</p>
-        <img class="float-right no-margins inline" src="images/Analytics/Graph_Referrals.png"/>
+        <p class="inline">CHANNELS</p>
+        <img class="inline width-hundred" src="images/Analytics/Graph_Channels.png"/>
+        <p class="inline">REFERRALS</p>
+        <img class="inline width-hundred" src="images/Analytics/Graph_Referrals.png"/>
 
 
 
@@ -186,7 +258,7 @@
   <!--Recommendations, etc-->
   <div class="row">
     <div class="col-blue col-lg-4 col-sm-12">
-      <p>Recommendations</p>
+      <h3 class="blue-header">Recommendations</h3>
     </div><!--end col-->
     <div class="col-red col-lg-8 col-sm-12">
       <p>Contacts, Customers</p>

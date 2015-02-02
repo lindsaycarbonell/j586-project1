@@ -1,0 +1,2 @@
+[Mon Feb 02 2015 12:36:13 GMT-0500 (EST)] Layer "Google+": Expected end of input but "+" found.
+[Mon Feb 02 2015 12:36:13 GMT-0500 (EST)] Layer "Google+": Expected end of input but "+" found.
