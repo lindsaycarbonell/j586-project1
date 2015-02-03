@@ -43,20 +43,6 @@ padding:10px;
   padding:10px;
 }
 
-
-
-
-
-
-
-
-/*sprites for dash*/
-
-
-
-
-
-
 /*TASKS*/
 .blue-header{
   color:#2498f4;
@@ -174,16 +160,6 @@ padding:10px;
 
 /*DID YOU KNOW*/
 
-.did-arrow-left{
-margin:2% 50% 2% 2%;
-position:absolute;
-}
-
-.did-arrow-right{
-  margin:0;
-  position:absolute;
-}
-
 #did-you-know{
   background-color:#2498f4;
   border-radius:3px;
@@ -192,6 +168,18 @@ position:absolute;
   margin-bottom:10%;
   position:relative;
 
+}
+
+.did-arrow-left{
+top:30%;
+left:0;
+position:absolute;
+}
+
+.did-arrow-right{
+  top: 30%;
+  left: 97%;
+  position:absolute;
 }
 
 #did-you-know-header{
@@ -261,6 +249,9 @@ background-color:#208ee5;
   display:inline;
 }
 
+.border-top{
+  border-top:1px solid #e9e9e9;
+}
 .border-left{
   border-left:1px solid #e9e9e9;
 }
