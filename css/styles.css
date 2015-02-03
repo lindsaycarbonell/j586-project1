@@ -1,22 +1,38 @@
 /*basic styles*/
 
-
-/*basic styles*/
-
 body{
   font-family:"Myriad Pro", sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
 }
+
+
+/*PAGE HEADER*/
 #social-stream-text{
   font-size:24px;
   color:#fff;
 }
+#mini-menu-text{
+  color:#fff;
+  font-size:1em;
+}
+
+
+/*NAVIGATION*/
+
+/*DASHBOARD HEADER*/
 #dashboard-text{
   font-size:36px;
   color:#fff;
-
 }
+#header-background{
+  background-color:#33cc66;
+  border-radius:5px;
+  margin:20px;
+  padding:10px;
+}
+
+/*ANNOUNCEMENTS*/
 #announcements-title-text{
 text-transform:uppercase;
 color:#fe7f13;
@@ -26,122 +42,26 @@ padding:10px;
   color:#777777;
   padding:10px;
 }
-.blue-header{
-color:#2498f4;
-font-size:32px;
-}
-.gray-header{
-
-}
 
 
 
-#header-background{
-  /*background-image:url("../images/Header/Header_Background.png");*/
-  background-color:#33cc66;
-  border-radius:5px;
-  margin:20px;
-  padding:10px;
-}
+
+
 
 
 
 /*sprites for dash*/
 
-.Icon_Analytics_Selected, .Icon_Customers_Selected, .Icon_Dashboard_Selected, .Icon_Messages_Selected, .Icon_Page_Creator_Selected, .Icon_Promotions_Selected, .Icon_Analytics, .Icon_Customers, .Icon_Dashboard, .Icon_Messages, .Icon_Page-Creator, .Icon_Promotions{
-  background: url("../images/Navbar/sprites.png") no-repeat;
+
+
+
+
+
+/*TASKS*/
+.blue-header{
+  color:#2498f4;
+  font-size:32px;
 }
-
-.Icon_Dashboard{
-  background-image: url("../images/Navbar/Icon_Dashboard.png");
-  /*background-position: 0 -259px ;
-  width: 58px;
-  height: 58px;
-  display:block;*/
-}
-
-.Icon_Dashboard:hover{
-  background-image: url("../images/Navbar/Icon_Dashboard_Selected.png");
-  /*background-position: -80px -256px ;
-  width: 58px;
-  height: 58px;
-  display:block;*/
-}
-
-.Icon_Analytics{
-  background-position: -3px -389px ;
-  width: 42px;
-  height: 50px;
-}
-
-.Icon_Analytics:hover{
-  background-position: -79px -386px ;
-  width: 42px;
-  height: 50px;
-}
-
-.Icon_Customers{
-  background-position: 0 -206px ;
-  width: 62px;
-  height: 42px;
-}
-
-.Icon_Customers:hover{
-  background-position: -80px -204px ;
-  width: 62px;
-  height: 42px;
-}
-
-
-.Icon_Messages{
-  background-position: 0 -156px ;
-  width: 57px;
-  height: 48px;
-}
-
-.Icon_Messages:hover{
-  background-position: -84px -156px ;
-  width: 57px;
-  height: 48px;
-}
-
-.Icon_Page-Creator{
-  background-position: -3px -99px ;
-  width: 45px;
-  height: 50px;
-}
-
-
-.Icon_Page-Creator:hover{
-  background-position: -86px -100px ;
-  width: 45px;
-  height: 50px;
-}
-
-.Icon_Promotions{
-  background-position: -7px -327px ;
-  width: 50px;
-  height: 50px;
-}
-
-.Icon_Promotions:hover{
-  background-position: -86px -325px ;
-  width: 50px;
-  height: 50px;
-
-}
-
-
-/*end sprites for dash*/
-
-
-.social-list{
-  list-style-type:none;
-  margin:0;
-  padding:0;
-  }
-
-  /*TASKS*/
 
 .tasks-ul{
   list-style-type:none;
@@ -170,6 +90,14 @@ font-size:32px;
   border-radius: 50px;
 }
 
+/*ANALYTICS*/
+
+.social-list{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
 /*RECOMMENDATIONS*/
 .list-text-recs{
   font-size:16px;
@@ -183,26 +111,51 @@ font-size:32px;
 .icon-margin{
   margin-right:10px;
 }
+.rec-height{
+  height:750pxpx;
+}
 
 /*CONTACTS AND CUSTOMERS*/
 .contact-cust-box{
   background-color:white;
-  box-shadow: 1px 1px 1px #777777;
-  min-height:200px;
+  min-height:210px;
+  width:250px;
+  margin-top:50px;
+  border-radius:3px;
   position:relative;
+
+  -webkit-box-shadow: 0px 0px 9px 0px rgba(50, 50, 50, 0.56);
+  -moz-box-shadow:    0px 0px 9px 0px rgba(50, 50, 50, 0.56);
+  box-shadow:         0px 0px 9px 0px rgba(50, 50, 50, 0.56);
 }
 
 .profile-icon{
-  margin-left:40%;
+  margin-left:35%;
   position:absolute;
+  margin-top:-10%;
 }
 
 .profile-banner{
   background-color:#2498f4;
-  margin:20% 20% 20% 20%;
-  width:200px;
+  margin:20% 15% 15% 0;
+  width:250px;
   z-index:5;
   position:absolute;
+}
+
+.banner-left{
+  position:absolute;
+  margin:25% 2% 2% -5%;
+  z-index:100;
+}
+.banner-right{
+  position:absolute;
+  margin:25% 2% 2% 100%;
+  z-index:100;
+  }
+.contact-chart{
+  position:absolute;
+  margin:50% 10% 20% 10%;
 }
 
 #contact-box-header{
@@ -219,13 +172,68 @@ font-size:32px;
   text-align:center;
 }
 
+/*DID YOU KNOW*/
+
+.did-arrow-left{
+margin:2% 50% 2% 2%;
+position:absolute;
+}
+
+.did-arrow-right{
+  margin:0;
+  position:absolute;
+}
+
+#did-you-know{
+  background-color:#2498f4;
+  border-radius:3px;
+  padding:20px;
+  margin-top:-2%;
+  margin-bottom:10%;
+  position:relative;
+
+}
+
+#did-you-know-header{
+  font-size:13px;
+  text-transform:uppercase;
+  color:#fff;
+}
+
+#did-you-know-body{
+font-size:15px;
+color:#fff;
+}
+
+/*ADS*/
+.ad-background{
+  background-color:#2498f4;
+}
+
+/*FOOTER*/
+.footer-box{
+  -webkit-box-shadow: 0px -8px 13px 0px rgba(133,129,133,0.72);
+  -moz-box-shadow: 0px -8px 13px 0px rgba(133,129,133,0.72);
+  box-shadow: 0px -8px 13px 0px rgba(133,129,133,0.72);
+}
+.footer-menu{
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  padding-left:0 !important;
+  color:#777777;
+  height:2em;
+}
+.footer-pads-li{
+
+}
 
 .nav-background{
   background-image:url("../images/Navbar/Background.png");
 }
 
 .page-head{
-  background-image:url("../images/Pageheader/Menu_Bar.png");
+background-color:#208ee5;
 }
 
 
@@ -254,7 +262,7 @@ font-size:32px;
 }
 
 .border-left{
-  border-left:1px solid transparent;
+  border-left:1px solid #e9e9e9;
 }
 
 .border-right{
@@ -313,4 +321,82 @@ font-size:32px;
   border: 1px solid red;
   border-radius:4px;
 
+}
+
+/*SPRITES*/
+
+.Icon_Analytics_Selected, .Icon_Analytics, .Icon_Customers_Selected, .Icon_Customers, .Icon_Dashboard_Selected, .Icon_Dashboard, .Icon_Messages_Selected, .Icon_Messages, .Icon_Page-Creator, .Icon_Page_Creator_Selected, .Icon_Promotions_Selected, .Icon_Promotions{
+  background: url(images/Navbar/sprites.png) no-repeat;
+}
+
+.Icon_Analytics{
+  background-position: -2px -310px ;
+  width: 42px;
+  height: 50px;
+}
+
+.Icon_Analytics:hover{
+  background-position: -55px -307px ;
+  width: 42px;
+  height: 50px;
+}
+
+.Icon_Customers{
+  background-position: 0 -253px ;
+  width: 62px;
+  height: 42px;
+}
+
+.Icon_Customers:hover{
+  background-position: -68px -253px ;
+  width: 62px;
+  height: 42px;
+}
+
+.Icon_Dashboard{
+  background-position: -4px -187px ;
+  width: 58px;
+  height: 58px;
+}
+
+.Icon_Dashboard:hover{
+  background-position: -69px -188px ;
+  width: 58px;
+  height: 58px;
+}
+
+.Icon_Messages{
+  background-position: -1px -128px ;
+  width: 57px;
+  height: 48px;
+}
+
+.Icon_Messages:hover{
+  background-position: -71px -128px ;
+  width: 57px;
+  height: 48px;
+}
+
+.Icon_Page_Creator:hover{
+  background-position: -6px -62px ;
+  width: 45px;
+  height: 50px;
+}
+
+.Icon_Page-Creator{
+  background-position: -61px -61px ;
+  width: 45px;
+  height: 50px;
+}
+
+.Icon_Promotions{
+  background-position: -4px 0;
+  width: 50px;
+  height: 50px;
+}
+
+.Icon_Promotions:hover{
+  background-position: -63px 0;
+  width: 50px;
+  height: 50px;
 }
